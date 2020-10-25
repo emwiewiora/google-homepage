@@ -32,11 +32,11 @@ body, html {
     overflow: hidden;
   }
   
-#navbar1, li {
+.navbar-right, li {
     float: right;
   }
   
-#navbar2, li {
+.navbar-left, li {
     float: left;
   }
 
@@ -81,9 +81,14 @@ body, html {
       align-items: center;
   }
 
+  .logo img {
+      width: 272px;
+      height: 92;
+  }
+
   .bar {
     margin:50px auto 20px auto;
-    width:575px;
+    max-width:575px;
     border-radius:30px;
     border:1px solid #dcdcdc;
     height: 42px;
